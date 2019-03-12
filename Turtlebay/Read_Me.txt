@@ -51,8 +51,8 @@ example:
 Testing Strategy :
      black box testing tests whether the ending point of the turtle meets the expected point.
 
-     For white box testing, test.h replace the PUTERROR macro, which allows the interpreter to not exit the entire program when meeting an error,
-     which makes it possible to test error cases.
+     For white box testing, test.h replace the PUTERROR macro, which allows the interpreter to not exit the entire program
+     when meeting an error, which makes it possible to test error cases.
      However, to make this viable. Changes were made to the interpreter.
      1   after every possible errors generator, check whether the error flag is on and return from these functions.
      2   there is a switch to switch off the graphic, hence the interpretation when doing these tests.
