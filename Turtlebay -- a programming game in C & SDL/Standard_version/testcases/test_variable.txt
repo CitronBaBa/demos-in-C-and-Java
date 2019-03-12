@@ -1,0 +1,6 @@
+{   SET A := 30 ;
+    SET B := 60 ;
+    SET C := A B + ;
+    LT C
+    FD C 
+}

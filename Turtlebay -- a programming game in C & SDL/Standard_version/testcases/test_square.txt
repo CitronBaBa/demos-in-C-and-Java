@@ -1,0 +1,8 @@
+{     FD 100
+      LT 90
+      FD 100
+      DO A FROM 1 TO 101
+      {   LT 90
+          FD 200
+      }
+}

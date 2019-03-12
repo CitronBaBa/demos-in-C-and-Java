@@ -1,0 +1,11 @@
+{
+       DO A FROM 10 TO 100 
+      {
+	  FD A
+          FD A
+	  RT 30
+          DO B FROM 1 TO 9 
+          {   SET C := A 5 / ;	      FD C
+	      RT 40 }
+		        } 		
+}

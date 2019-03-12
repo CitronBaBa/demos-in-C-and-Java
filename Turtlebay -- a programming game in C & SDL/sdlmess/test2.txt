@@ -1,0 +1,7 @@
+{      SET B := 10 ;
+       DO A FROM 1 TO 50 
+       {   SET B := B 3 * ;
+           FD B	
+           LT 30        
+       } 		
+}
