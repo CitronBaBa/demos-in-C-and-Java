@@ -3,7 +3,7 @@
 The program is a combination of parser interpreter and graphical interface:
 you type in a "turtle" language and turtle will move around the screen to avoid collision with rabbits
 standard version : focus on parser and testing
-extended version : focus on make it a game
+extended version : focus on making it a game
 
 
 Basic Commands:
