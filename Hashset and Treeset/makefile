@@ -5,7 +5,7 @@ OPTIM = -O2
 VALGRIND = --error-exitcode=1 --quiet --leak-check=full
 SPELLLIST = eng_370k_shuffle.txt
 BOOK = heart_darkness.txt
-
+CC = gcc
 all: splbst splhsh
 
 splbst: spl.c bst.c bst.h
