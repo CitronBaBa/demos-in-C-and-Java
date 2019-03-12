@@ -32,9 +32,9 @@ example:
 
      !!!!<SDL_ttf> <SDL_image> <SDL_mixer> !!!! 
 
-     in the computer for both compiling the program and running any executable files on   unixs. 
-     Please tell me if it doesn't compile or run, I found it very hard to replicate on other mac computers.
-     Because of SDL, the program is more stable on windows than on mac, normally it will  work on both platforms. on windows it is compiled using mingw.
+     in the computer for both compiling the program and running any executable files on linux and macs. 
+     Please tell me if it doesn't compile or run.
+     Because of SDL, the program is more stable on windows than on mac, normally it will work on both platforms. on windows it is compiled using mingw.
      There is also a sound effect, make sure to switch the audio on.
       
   make method in standard version:
@@ -54,7 +54,7 @@ Testing Strategy :
      For white box testing, test.h replace the PUTERROR macro, which allows the interpreter to not exit the entire program when meeting an error,
      which makes it possible to test error cases.
      However, to make this viable. Changes were made to the interpreter.
-     1   after every possible errors generator, I have to check whether the error flag is on and return from these functions.
+     1   after every possible errors generator, check whether the error flag is on and return from these functions.
      2   there is a switch to switch off the graphic, hence the interpretation when doing these tests.
          In black box testing it is switched off by default, you can switch it on by changing the macro.
          In white box testing it is always switched off to avoid confusion.
