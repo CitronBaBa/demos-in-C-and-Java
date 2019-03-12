@@ -1,1 +1,0 @@
-enum Oxo{o,x};
