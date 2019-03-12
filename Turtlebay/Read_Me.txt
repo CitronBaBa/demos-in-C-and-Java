@@ -34,7 +34,8 @@ example:
 
      in the computer for both compiling the program and running any executable files on linux and macs. 
      Please tell me if it doesn't compile or run.
-     Because of SDL, the program is more stable on windows than on mac, normally it will work on both platforms. on windows it is compiled using mingw.
+     Because of SDL, the program is more stable on windows than on mac, normally it will work on both platforms. 
+     on windows it is compiled using mingw.
      There is also a sound effect, make sure to switch the audio on.
       
   make method in standard version:
